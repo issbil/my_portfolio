@@ -448,7 +448,7 @@ window.CV_DATA = {
         en: "Machine Learning foundations on AWS."
       },
       // credential: "https://graduation.udacity.com/confirm/SSWQKHCR",
-      credential: "https://www.udacity.com/certificate/e/edcac8e2-01fb-11ed-baaf-e3ab4b2c2cc6",
+      credential: "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/9c25dd86-e2f9-4933-be6f-dc816e4d2343.pdf",
       
       badge: { fr: "Certification", en: "Certification" }
     },
