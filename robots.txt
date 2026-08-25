@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://issbil.github.io/portfolio/sitemap.xml
+Sitemap: https://issbil.github.io/my_portfolio/sitemap.xml

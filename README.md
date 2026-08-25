@@ -72,12 +72,12 @@ Aucune recompilation nécessaire : rechargez la page.
 
 ## Déploiement — GitHub Pages
 
-Le site est publié sur **<https://issbil.github.io/portfolio/>** depuis la branche `main`.
+Le site est publié sur **<https://issbil.github.io/my_portfolio/>** depuis la branche `main`.
 
 ### Mise en ligne initiale
 
 ```bash
-git remote add origin git@github.com:issbil/portfolio.git   # ou l'URL HTTPS
+git remote add origin git@github.com:issbil/my_portfolio.git   # ou l'URL HTTPS
 git push -u origin main
 ```
 
@@ -109,7 +109,7 @@ Pour brancher un domaine (ex. `issaboly.dev`) :
 
 1. Créer un fichier `CNAME` à la racine contenant le domaine.
 2. Chez le registrar, pointer un `CNAME` vers `issbil.github.io`.
-3. Remplacer `https://issbil.github.io/portfolio/` par le nouveau domaine dans
+3. Remplacer `https://issbil.github.io/my_portfolio/` par le nouveau domaine dans
    `index.html` (`canonical`, `og:url`, `og:image`, JSON-LD), `robots.txt` et `sitemap.xml`.
 
 ## Notes
