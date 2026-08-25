@@ -1,5 +1,5 @@
 /**
- * i18n.js — Dictionnaire des libellés statiques de l'interface.
+ * i18n.js - Dictionnaire des libellés statiques de l'interface.
  * Les contenus du CV vivent dans data.js ; ici, uniquement le chrome.
  */
 window.I18N = {
@@ -46,8 +46,8 @@ window.I18N = {
     footerBuilt: "Conçu et développé avec soin",
     codeFocus: "'plateformes critiques'",
 
-    docTitle: "Issa BOLY — Développeur Full Stack Senior",
-    docDesc: "Issa BOLY — Développeur Full Stack Senior Web & Mobile, 6+ ans d'expérience. Java/Spring Boot, Python/Django, React, Angular, PostgreSQL/PostGIS, AWS & DevOps.",
+    docTitle: "Issa BOLY - Développeur Full Stack Senior",
+    docDesc: "Issa BOLY - Développeur Full Stack Senior Web & Mobile, 6+ ans d'expérience. Java/Spring Boot, Python/Django, React, Angular, PostgreSQL/PostGIS, AWS & DevOps.",
     menuOpen: "Ouvrir le menu", menuClose: "Fermer le menu",
     themeToggle: "Changer de thème", langToggle: "Switch to English"
   },
@@ -82,7 +82,7 @@ window.I18N = {
     eduCredential: "Verify credential",
 
     contactTitle: "Let's talk about your project",
-    contactSub: "A platform to design, take over or make reliable? Drop me a line — I reply within 24 h.",
+    contactSub: "A platform to design, take over or make reliable? Drop me a line - I reply within 24 h.",
     ccEmail: "Email", ccPhone: "Phone",
     formName: "Full name", formEmail: "Email", formSubject: "Subject", formMessage: "Message",
     formSend: "Send message",
@@ -95,8 +95,8 @@ window.I18N = {
     footerBuilt: "Designed and built with care",
     codeFocus: "'mission-critical platforms'",
 
-    docTitle: "Issa BOLY — Senior Full Stack Developer",
-    docDesc: "Issa BOLY — Senior Full Stack Web & Mobile Developer, 6+ years of experience. Java/Spring Boot, Python/Django, React, Angular, PostgreSQL/PostGIS, AWS & DevOps.",
+    docTitle: "Issa BOLY - Senior Full Stack Developer",
+    docDesc: "Issa BOLY - Senior Full Stack Web & Mobile Developer, 6+ years of experience. Java/Spring Boot, Python/Django, React, Angular, PostgreSQL/PostGIS, AWS & DevOps.",
     menuOpen: "Open menu", menuClose: "Close menu",
     themeToggle: "Toggle theme", langToggle: "Passer en français"
   }

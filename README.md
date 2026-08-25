@@ -1,4 +1,4 @@
-# Portfolio — Issa BOLY
+# Portfolio - Issa BOLY
 
 Site portfolio professionnel de **Issa BOLY**, Développeur Full Stack Senior (Web & Mobile).
 Site statique, sans build ni dépendance : HTML5, CSS3 et JavaScript vanilla.
@@ -53,7 +53,7 @@ Tout se passe dans **`assets/js/data.js`**. Chaque champ textuel est un objet `{
 {
   role:   { fr: "Développeur Full Stack Senior", en: "Senior Full Stack Developer" },
   company: "EXCELIS-SA",
-  period: { fr: "Mai 2026 — Aujourd'hui", en: "May 2026 — Present" },
+  period: { fr: "Mai 2026 - Aujourd'hui", en: "May 2026 - Present" },
   current: true,
   bullets: { fr: ["…"], en: ["…"] },
   stack:  ["Architecture", "Java", "React"]
@@ -70,7 +70,7 @@ Tout se passe dans **`assets/js/data.js`**. Chaque champ textuel est un objet `{
 
 Aucune recompilation nécessaire : rechargez la page.
 
-## Déploiement — GitHub Pages
+## Déploiement - GitHub Pages
 
 Le site est publié sur **<https://issbil.github.io/my_portfolio/>** depuis la branche `main`.
 
@@ -99,9 +99,9 @@ GitHub Pages redéploie automatiquement à chaque push sur `main`.
 
 Le site étant 100 % statique, il se déploie tel quel ailleurs :
 
-- **Netlify / Vercel** — glisser-déposer le dossier ou connecter le dépôt.
+- **Netlify / Vercel** - glisser-déposer le dossier ou connecter le dépôt.
   Build command : *aucune*. Publish directory : `.`
-- **LWS / OVH** — transférer le contenu du dossier par FTP dans `www/` ou `public_html/`.
+- **LWS / OVH** - transférer le contenu du dossier par FTP dans `www/` ou `public_html/`.
 
 ### Domaine personnalisé
 
@@ -114,7 +114,7 @@ Pour brancher un domaine (ex. `issaboly.dev`) :
 
 ## Notes
 
-- Le formulaire de contact utilise `mailto:` — aucun back-end requis. Pour un envoi
+- Le formulaire de contact utilise `mailto:` - aucun back-end requis. Pour un envoi
   serveur, brancher [Formspree](https://formspree.io) ou une fonction serverless
   dans `initForm()` (`assets/js/main.js`).
 - Les données personnelles non nécessaires à un site public (situation familiale,
@@ -128,6 +128,6 @@ Pour brancher un domaine (ex. `issaboly.dev`) :
 
 ---
 
-© Issa BOLY — [issaboly@gmail.com](mailto:issaboly@gmail.com) ·
+© Issa BOLY - [issaboly@gmail.com](mailto:issaboly@gmail.com) ·
 [LinkedIn](https://www.linkedin.com/in/issa-boly-8957b8116) ·
 [GitHub](https://github.com/issbil)

@@ -1,5 +1,5 @@
 /**
- * data.js — Source unique de vérité du portfolio.
+ * data.js - Source unique de vérité du portfolio.
  * Toutes les données du CV sont ici, en français et en anglais.
  * Pour mettre à jour le site, modifiez uniquement ce fichier.
  */
@@ -24,8 +24,8 @@ window.CV_DATA = {
     github: "https://github.com/issbil",
     cv: "https://cvdesignr.com/p/670a863d16d4f",
     title: {
-      fr: "Développeur Full Stack Senior — Web & Mobile",
-      en: "Senior Full Stack Developer — Web & Mobile"
+      fr: "Développeur Full Stack Senior - Web & Mobile",
+      en: "Senior Full Stack Developer - Web & Mobile"
     },
     tagline: {
       fr: "Je conçois et j'opère des plateformes critiques à l'échelle nationale : examens et concours, foncier rural, bourses, géomatique.",
@@ -34,12 +34,12 @@ window.CV_DATA = {
     summary: {
       fr: [
         "Développeur Full Stack Web et mobile avec plus de 6 ans d'expérience, passionné par la mise en œuvre et l'administration d'applications informatiques.",
-        "J'ai piloté des plateformes de grande envergure à forte criticité — systèmes nationaux de gestion des examens et concours, observatoire urbain national, plateformes de gestion foncière financées par la Banque Mondiale — de l'analyse du besoin jusqu'à l'exploitation en production.",
+        "J'ai piloté des plateformes de grande envergure à forte criticité - systèmes nationaux de gestion des examens et concours, observatoire urbain national, plateformes de gestion foncière financées par la Banque Mondiale - de l'analyse du besoin jusqu'à l'exploitation en production.",
         "Rigueur, sens de la responsabilité et capacité d'analyse : j'apporte des solutions rapides et optimales dans des contextes variés, et je forme les développeurs juniors aux bonnes pratiques."
       ],
       en: [
         "Full Stack Web and Mobile Developer with 6+ years of experience, passionate about building and operating enterprise software.",
-        "I have led large-scale, mission-critical platforms — national exam and competitive-test management systems, a national urban observatory, World Bank-funded land registry platforms — from requirements analysis all the way to production operations.",
+        "I have led large-scale, mission-critical platforms - national exam and competitive-test management systems, a national urban observatory, World Bank-funded land registry platforms - from requirements analysis all the way to production operations.",
         "Rigor, ownership and analytical thinking: I deliver fast, optimal solutions across diverse contexts, and I mentor junior developers on engineering best practices."
       ]
     },
@@ -120,7 +120,7 @@ window.CV_DATA = {
       role: { fr: "Développeur Full Stack Senior", en: "Senior Full Stack Developer" },
       company: "EXCELIS-SA",
       location: { fr: "Ouagadougou, Burkina Faso", en: "Ouagadougou, Burkina Faso" },
-      period: { fr: "Mai 2026 — Aujourd'hui", en: "May 2026 — Present" },
+      period: { fr: "Mai 2026 - Aujourd'hui", en: "May 2026 - Present" },
       current: true,
       type: { fr: "Temps plein", en: "Full-time" },
       bullets: {
@@ -142,10 +142,10 @@ window.CV_DATA = {
       stack: [{ fr: "Architecture", en: "Architecture" }, "Java", "React", "PostgreSQL", "CI/CD", { fr: "Mentorat", en: "Mentoring" }]
     },
     {
-      role: { fr: "Pull Request Writer — Entraînement de modèles IA", en: "Pull Request Writer — AI Model Training" },
+      role: { fr: "Pull Request Writer - Entraînement de modèles IA", en: "Pull Request Writer - AI Model Training" },
       company: "Revelo (USA)",
       location: { fr: "Remote (Freelance)", en: "Remote (Freelance)" },
-      period: { fr: "Novembre 2025 — Janvier 2026", en: "November 2025 — January 2026" },
+      period: { fr: "Novembre 2025 - Janvier 2026", en: "November 2025 - January 2026" },
       type: { fr: "Freelance", en: "Freelance" },
       bullets: {
         fr: [
@@ -162,10 +162,10 @@ window.CV_DATA = {
       stack: ["Code review", "Git", "Python", "JavaScript", "LLM evaluation"]
     },
     {
-      role: { fr: "Ingénieur Logiciel — Direction des Systèmes d'Information", en: "Software Engineer — Information Systems Department" },
+      role: { fr: "Ingénieur Logiciel - Direction des Systèmes d'Information", en: "Software Engineer - Information Systems Department" },
       company: "DSI / MESFPT",
       location: { fr: "Ouagadougou, Burkina Faso", en: "Ouagadougou, Burkina Faso" },
-      period: { fr: "Octobre 2022 — Avril 2026", en: "October 2022 — April 2026" },
+      period: { fr: "Octobre 2022 - Avril 2026", en: "October 2022 - April 2026" },
       type: { fr: "Temps plein", en: "Full-time" },
       bullets: {
         fr: [
@@ -192,10 +192,10 @@ window.CV_DATA = {
       stack: ["Django", "Spring Boot", "PostgreSQL", "Docker", "Jenkins", "Linux"]
     },
     {
-      role: { fr: "Consultant individuel — UNESCO", en: "Individual Consultant — UNESCO" },
+      role: { fr: "Consultant individuel - UNESCO", en: "Individual Consultant - UNESCO" },
       company: { fr: "Institut International de Planification de l'Éducation (IIPE)", en: "International Institute for Educational Planning (IIEP)" },
       location: { fr: "Dakar, Sénégal", en: "Dakar, Senegal" },
-      period: { fr: "Juillet 2023 — Août 2023", en: "July 2023 — August 2023" },
+      period: { fr: "Juillet 2023 - Août 2023", en: "July 2023 - August 2023" },
       type: { fr: "Mission", en: "Consulting" },
       bullets: {
         fr: [
@@ -215,7 +215,7 @@ window.CV_DATA = {
       role: { fr: "Consultant Génie Logiciel (temps partiel)", en: "Software Engineering Consultant (part-time)" },
       company: "Trisagion Process",
       location: { fr: "Ouagadougou, Burkina Faso", en: "Ouagadougou, Burkina Faso" },
-      period: { fr: "Décembre 2020 — Septembre 2021", en: "December 2020 — September 2021" },
+      period: { fr: "Décembre 2020 - Septembre 2021", en: "December 2020 - September 2021" },
       type: { fr: "Consulting", en: "Consulting" },
       bullets: {
         fr: [
@@ -241,7 +241,7 @@ window.CV_DATA = {
       role: { fr: "Professeur d'Informatique", en: "Computer Science Teacher" },
       company: { fr: "Lycée Municipal de Dédougou (MENAPLN)", en: "Lycée Municipal de Dédougou (MENAPLN)" },
       location: { fr: "Dédougou, Burkina Faso", en: "Dédougou, Burkina Faso" },
-      period: { fr: "Octobre 2018 — Octobre 2022", en: "October 2018 — October 2022" },
+      period: { fr: "Octobre 2018 - Octobre 2022", en: "October 2018 - October 2022" },
       type: { fr: "Temps plein", en: "Full-time" },
       bullets: {
         fr: [
@@ -263,7 +263,7 @@ window.CV_DATA = {
       role: { fr: "Développeur Freelance (CDD)", en: "Freelance Developer (fixed-term)" },
       company: "SEREIN-GE",
       location: { fr: "Ouagadougou, Burkina Faso", en: "Ouagadougou, Burkina Faso" },
-      period: { fr: "Décembre 2019 — Mai 2020", en: "December 2019 — May 2020" },
+      period: { fr: "Décembre 2019 - Mai 2020", en: "December 2019 - May 2020" },
       type: { fr: "Freelance", en: "Freelance" },
       bullets: {
         fr: [
@@ -287,7 +287,7 @@ window.CV_DATA = {
       role: { fr: "Développeur Freelance (CDD)", en: "Freelance Developer (fixed-term)" },
       company: "GéoidConsulting",
       location: { fr: "Ouagadougou, Burkina Faso", en: "Ouagadougou, Burkina Faso" },
-      period: { fr: "Août 2019 — Novembre 2019", en: "August 2019 — November 2019" },
+      period: { fr: "Août 2019 - Novembre 2019", en: "August 2019 - November 2019" },
       type: { fr: "Freelance", en: "Freelance" },
       bullets: {
         fr: [
@@ -320,8 +320,8 @@ window.CV_DATA = {
 
   projects: [
     {
-      name: { fr: "SIGEC — Gestion des examens et concours", en: "SIGEC — Exams & Competitive Tests Management" },
-      org: { fr: "MESFPT — Burkina Faso", en: "MESFPT — Burkina Faso" },
+      name: { fr: "SIGEC - Gestion des examens et concours", en: "SIGEC - Exams & Competitive Tests Management" },
+      org: { fr: "MESFPT - Burkina Faso", en: "MESFPT - Burkina Faso" },
       tags: ["gov", "education"],
       featured: true,
       description: {
@@ -332,7 +332,7 @@ window.CV_DATA = {
       link: null
     },
     {
-      name: { fr: "ONU — Observatoire National Urbain", en: "ONU — National Urban Observatory" },
+      name: { fr: "ONU - Observatoire National Urbain", en: "ONU - National Urban Observatory" },
       org: { fr: "Burkina Faso", en: "Burkina Faso" },
       tags: ["gov", "gis"],
       featured: true,
@@ -344,8 +344,8 @@ window.CV_DATA = {
       link: "https://oun.gov.bf"
     },
     {
-      name: { fr: "SIGOSPB — Gestion des bourses scolaires", en: "SIGOSPB — School Scholarships Management" },
-      org: { fr: "Ministère en charge de la Formation Professionnelle — Burkina Faso", en: "Ministry of Vocational Training — Burkina Faso" },
+      name: { fr: "SIGOSPB - Gestion des bourses scolaires", en: "SIGOSPB - School Scholarships Management" },
+      org: { fr: "Ministère en charge de la Formation Professionnelle - Burkina Faso", en: "Ministry of Vocational Training - Burkina Faso" },
       tags: ["gov", "education"],
       featured: true,
       description: {
@@ -356,7 +356,7 @@ window.CV_DATA = {
       link: "https://sigospb.formationpro.gov.bf"
     },
     {
-      name: { fr: "SYGODM — Gestion des ordres de mission", en: "SYGODM — Mission Orders Management" },
+      name: { fr: "SYGODM - Gestion des ordres de mission", en: "SYGODM - Mission Orders Management" },
       org: { fr: "Plusieurs ministères burkinabè", en: "Several Burkinabè ministries" },
       tags: ["gov"],
       featured: true,
@@ -380,7 +380,7 @@ window.CV_DATA = {
     },
     {
       name: { fr: "Système de gestion du foncier rural", en: "Rural Land Registry System" },
-      org: { fr: "République du Niger — financement Banque Mondiale", en: "Republic of Niger — World Bank funded" },
+      org: { fr: "République du Niger - financement Banque Mondiale", en: "Republic of Niger - World Bank funded" },
       tags: ["gis", "gov"],
       description: {
         fr: "Plateforme de gestion du foncier rural financée par la Banque Mondiale : enregistrement des parcelles, titres et transactions, avec référentiel spatial et restitution cartographique.",
@@ -390,7 +390,7 @@ window.CV_DATA = {
       link: null
     },
     {
-      name: { fr: "FIUE-BF — Identification unique des élèves et étudiants", en: "FIUE-BF — Unique Student Identification" },
+      name: { fr: "FIUE-BF - Identification unique des élèves et étudiants", en: "FIUE-BF - Unique Student Identification" },
       org: { fr: "Burkina Faso", en: "Burkina Faso" },
       tags: ["gov", "education"],
       description: {
@@ -401,8 +401,8 @@ window.CV_DATA = {
       link: null
     },
     {
-      name: { fr: "FEC — Fiche d'Évaluation Communautaire", en: "FEC — Community Evaluation Form" },
-      org: { fr: "Ministères de la Santé et de l'Éducation — Burkina Faso", en: "Ministries of Health and Education — Burkina Faso" },
+      name: { fr: "FEC - Fiche d'Évaluation Communautaire", en: "FEC - Community Evaluation Form" },
+      org: { fr: "Ministères de la Santé et de l'Éducation - Burkina Faso", en: "Ministries of Health and Education - Burkina Faso" },
       tags: ["health", "gov", "gis"],
       description: {
         fr: "Plateforme d'évaluation communautaire des services publics : collecte terrain, agrégation des scores et géolocalisation des centres de santé et établissements scolaires évalués.",
@@ -413,7 +413,7 @@ window.CV_DATA = {
     },
     {
       name: { fr: "Dématérialisation des procédures MESFPT", en: "MESFPT Procedure Digitalisation" },
-      org: { fr: "MESFPT — Burkina Faso", en: "MESFPT — Burkina Faso" },
+      org: { fr: "MESFPT - Burkina Faso", en: "MESFPT - Burkina Faso" },
       tags: ["gov", "education"],
       description: {
         fr: "Trois plateformes de dématérialisation des procédures ministérielles : autorisation de création d'établissement, autorisation d'ouverture et autorisation d'enseigner. Circuits de validation, pièces justificatives et suivi des dossiers en ligne.",
@@ -430,8 +430,8 @@ window.CV_DATA = {
   education: [
     {
       degree: { fr: "Nanodegree Full Stack Developer", en: "Full Stack Developer Nanodegree" },
-      school: { fr: "Udacity (USA) — à distance", en: "Udacity (USA) — remote" },
-      period: { fr: "Juillet 2022 — Novembre 2022", en: "July 2022 — November 2022" },
+      school: { fr: "Udacity (USA) - à distance", en: "Udacity (USA) - remote" },
+      period: { fr: "Juillet 2022 - Novembre 2022", en: "July 2022 - November 2022" },
       detail: {
         fr: "Python + Flask, Node.js, React.",
         en: "Python + Flask, Node.js, React."
@@ -441,8 +441,8 @@ window.CV_DATA = {
     },
     {
       degree: { fr: "AWS Machine Learning Foundation", en: "AWS Machine Learning Foundation" },
-      school: { fr: "Udacity (USA) — à distance", en: "Udacity (USA) — remote" },
-      period: { fr: "Juillet 2022 — Novembre 2022", en: "July 2022 — November 2022" },
+      school: { fr: "Udacity (USA) - à distance", en: "Udacity (USA) - remote" },
+      period: { fr: "Juillet 2022 - Novembre 2022", en: "July 2022 - November 2022" },
       detail: {
         fr: "Fondamentaux du Machine Learning sur AWS.",
         en: "Machine Learning foundations on AWS."
@@ -453,7 +453,7 @@ window.CV_DATA = {
     {
       degree: { fr: "Master en Génie Logiciel", en: "Master's Degree in Software Engineering" },
       school: { fr: "Université Joseph KI-ZERBO, Ouagadougou", en: "Université Joseph KI-ZERBO, Ouagadougou" },
-      period: { fr: "Octobre 2017 — Mai 2019", en: "October 2017 — May 2019" },
+      period: { fr: "Octobre 2017 - Mai 2019", en: "October 2017 - May 2019" },
       detail: {
         fr: "Génie logiciel et systèmes d'information informatisés. Vice-major de promotion.",
         en: "Software engineering and computerised information systems. Second in class."
@@ -463,7 +463,7 @@ window.CV_DATA = {
     {
       degree: { fr: "CAET option Informatique", en: "CAET, Computer Science" },
       school: { fr: "École Normale Supérieure de Koudougou", en: "École Normale Supérieure de Koudougou" },
-      period: { fr: "Novembre 2016 — Juillet 2018", en: "November 2016 — July 2018" },
+      period: { fr: "Novembre 2016 - Juillet 2018", en: "November 2016 - July 2018" },
       detail: {
         fr: "Génie logiciel et systèmes d'information informatisés.",
         en: "Software engineering and computerised information systems."
@@ -472,7 +472,7 @@ window.CV_DATA = {
     {
       degree: { fr: "Licence en Informatique", en: "Bachelor's Degree in Computer Science" },
       school: { fr: "Université Joseph KI-ZERBO, Ouagadougou", en: "Université Joseph KI-ZERBO, Ouagadougou" },
-      period: { fr: "Octobre 2012 — Juillet 2015", en: "October 2012 — July 2015" },
+      period: { fr: "Octobre 2012 - Juillet 2015", en: "October 2012 - July 2015" },
       detail: {
         fr: "Systèmes d'Information et Réseaux (SIR). Major de promotion.",
         en: "Information Systems and Networks (SIR). Top of the class."
@@ -482,7 +482,7 @@ window.CV_DATA = {
     {
       degree: { fr: "Licence en Mathématiques", en: "Bachelor's Degree in Mathematics" },
       school: { fr: "Université Ouaga 3S, Ouagadougou", en: "Université Ouaga 3S, Ouagadougou" },
-      period: { fr: "Octobre 2014 — Août 2015", en: "October 2014 — August 2015" },
+      period: { fr: "Octobre 2014 - Août 2015", en: "October 2014 - August 2015" },
       detail: {
         fr: "Mathématiques appliquées et économétrie. Mention Assez Bien.",
         en: "Applied mathematics and econometrics. Graduated with honours."
@@ -491,7 +491,7 @@ window.CV_DATA = {
     {
       degree: { fr: "Baccalauréat série D", en: "Baccalaureate, Science stream (D)" },
       school: { fr: "Lycée Diaba Lompo, Fada N'Gourma", en: "Lycée Diaba Lompo, Fada N'Gourma" },
-      period: { fr: "Octobre 2010 — Juillet 2011", en: "October 2010 — July 2011" },
+      period: { fr: "Octobre 2010 - Juillet 2011", en: "October 2010 - July 2011" },
       detail: { fr: "", en: "" }
     }
   ],

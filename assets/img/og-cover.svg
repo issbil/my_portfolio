@@ -16,7 +16,7 @@
   <rect x="80" y="86" width="76" height="76" rx="20" fill="url(#acc)"/>
   <text x="118" y="139" text-anchor="middle" font-family="Inter,sans-serif" font-size="34" font-weight="800" fill="#06121e">IB</text>
   <text x="80" y="290" font-family="Inter,sans-serif" font-size="76" font-weight="800" fill="#e9edf7">Issa BOLY</text>
-  <text x="80" y="360" font-family="Inter,sans-serif" font-size="38" font-weight="600" fill="url(#acc)">Développeur Full Stack Senior — Web &amp; Mobile</text>
+  <text x="80" y="360" font-family="Inter,sans-serif" font-size="38" font-weight="600" fill="url(#acc)">Développeur Full Stack Senior - Web &amp; Mobile</text>
   <text x="80" y="428" font-family="Inter,sans-serif" font-size="26" fill="#a8b2c8">Plateformes critiques à l'échelle nationale · 6+ ans d'expérience</text>
   <text x="80" y="530" font-family="JetBrains Mono,monospace" font-size="23" fill="#6f7b95">Java · Spring Boot · Django · React · Angular · PostgreSQL/PostGIS · AWS</text>
   <rect x="80" y="562" width="200" height="5" rx="3" fill="url(#acc)"/>

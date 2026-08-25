@@ -1,5 +1,5 @@
 /**
- * main.js — Rendu du portfolio, i18n, thème et interactions.
+ * main.js - Rendu du portfolio, i18n, thème et interactions.
  * Aucune dépendance : tout est rendu à partir de window.CV_DATA.
  */
 (function () {
@@ -391,7 +391,7 @@
         (lang === 'fr' ? 'Prise de contact depuis le portfolio' : 'Contact from the portfolio');
       var message = $('#cf-message').value.trim();
 
-      var body = message + '\n\n—\n' + name + '\n' + email;
+      var body = message + '\n\n-\n' + name + '\n' + email;
       window.location.href = 'mailto:' + D.identity.email +
         '?subject=' + encodeURIComponent(subject) +
         '&body=' + encodeURIComponent(body);
