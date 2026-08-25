@@ -70,30 +70,47 @@ Tout se passe dans **`assets/js/data.js`**. Chaque champ textuel est un objet `{
 
 Aucune recompilation nécessaire : rechargez la page.
 
-## Déploiement
+## Déploiement — GitHub Pages
 
-Le site est 100 % statique — il se déploie tel quel sur n'importe quel hébergeur.
+Le site est publié sur **<https://issbil.github.io/portfolio/>** depuis la branche `main`.
 
-**GitHub Pages**
+### Mise en ligne initiale
 
 ```bash
-git init && git add . && git commit -m "Portfolio"
-git branch -M main
-git remote add origin git@github.com:issbil/portfolio.git
+git remote add origin git@github.com:issbil/portfolio.git   # ou l'URL HTTPS
 git push -u origin main
-# Settings → Pages → Source: main / root
 ```
 
-**Netlify / Vercel** — glisser-déposer le dossier, ou connecter le dépôt.
-Build command : *aucune*. Publish directory : `.`
+Puis sur GitHub : **Settings → Pages → Build and deployment**
+→ *Source* : `Deploy from a branch` · *Branch* : `main` · *Folder* : `/ (root)` → **Save**.
 
-**Hébergement classique (LWS, OVH)** — transférer le contenu du dossier par FTP
-dans `www/` ou `public_html/`.
+Le premier déploiement prend une à deux minutes. L'onglet **Actions** affiche
+l'avancement du job `pages build and deployment`.
 
-### Après mise en ligne
+### Publier une mise à jour
 
-Remplacer `https://issaboly.dev/` par le domaine réel dans :
-`index.html` (balise `<link rel="canonical">`), `robots.txt` et `sitemap.xml`.
+```bash
+git add -A && git commit -m "Mise à jour du contenu" && git push
+```
+
+GitHub Pages redéploie automatiquement à chaque push sur `main`.
+
+### Autres hébergeurs
+
+Le site étant 100 % statique, il se déploie tel quel ailleurs :
+
+- **Netlify / Vercel** — glisser-déposer le dossier ou connecter le dépôt.
+  Build command : *aucune*. Publish directory : `.`
+- **LWS / OVH** — transférer le contenu du dossier par FTP dans `www/` ou `public_html/`.
+
+### Domaine personnalisé
+
+Pour brancher un domaine (ex. `issaboly.dev`) :
+
+1. Créer un fichier `CNAME` à la racine contenant le domaine.
+2. Chez le registrar, pointer un `CNAME` vers `issbil.github.io`.
+3. Remplacer `https://issbil.github.io/portfolio/` par le nouveau domaine dans
+   `index.html` (`canonical`, `og:url`, `og:image`, JSON-LD), `robots.txt` et `sitemap.xml`.
 
 ## Notes
 
@@ -103,6 +120,11 @@ Remplacer `https://issaboly.dev/` par le domaine réel dans :
 - Les données personnelles non nécessaires à un site public (situation familiale,
   permis de conduire) et les coordonnées des références professionnelles ne sont
   volontairement pas publiées. Elles restent disponibles sur le CV complet.
+- `assets/img/og-cover.png` est l'image d'aperçu affichée lors d'un partage sur
+  LinkedIn, WhatsApp ou Slack. Elle est générée à partir de `og-cover.svg` :
+  après modification du SVG, régénérer le PNG en 1200×630.
+- `.nojekyll` désactive le traitement Jekyll de GitHub Pages : les fichiers sont
+  servis tels quels.
 
 ---
 

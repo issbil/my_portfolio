@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://issaboly.dev/sitemap.xml
+Sitemap: https://issbil.github.io/portfolio/sitemap.xml
