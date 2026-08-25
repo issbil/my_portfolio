@@ -38,13 +38,13 @@ window.CV_DATA = {
         "Rigueur, sens de la responsabilité et capacité d'analyse : j'apporte des solutions rapides et optimales dans des contextes variés, et je forme les développeurs juniors aux bonnes pratiques."
       ],
       en: [
-        "Full Stack Web and Mobile Developer with 6+ years of experience, passionate about building and operating enterprise software.",
+        "Full Stack Web and Mobile Developer with 7+ years of experience, passionate about building and operating enterprise software.",
         "I have led large-scale, mission-critical platforms - national exam and competitive-test management systems, a national urban observatory, World Bank-funded land registry platforms - from requirements analysis all the way to production operations.",
         "Rigor, ownership and analytical thinking: I deliver fast, optimal solutions across diverse contexts, and I mentor junior developers on engineering best practices."
       ]
     },
     stats: [
-      { value: "6+",  label: { fr: "ans d'expérience",        en: "years of experience" } },
+      { value: "7+",  label: { fr: "ans d'expérience",        en: "years of experience" } },
       { value: "12+", label: { fr: "plateformes livrées",     en: "platforms delivered" } },
       { value: "3",   label: { fr: "pays couverts",           en: "countries served" } },
       { value: "2",   label: { fr: "certifications Udacity",  en: "Udacity certifications" } }
