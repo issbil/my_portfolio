@@ -436,7 +436,8 @@ window.CV_DATA = {
         fr: "Python + Flask, Node.js, React.",
         en: "Python + Flask, Node.js, React."
       },
-      credential: "https://confirm.udacity.com/NNA9XETV",
+      // credential: "https://confirm.udacity.com/NNA9XETV",
+      highlight: { fr: "Badge en Or", en: "Gold badge" },
       badge: { fr: "Certification", en: "Certification" }
     },
     {
@@ -447,8 +448,9 @@ window.CV_DATA = {
         fr: "Fondamentaux du Machine Learning sur AWS.",
         en: "Machine Learning foundations on AWS."
       },
+      highlight: { fr: "Badge en Or", en: "Gold badge" },
       // credential: "https://graduation.udacity.com/confirm/SSWQKHCR",
-      credential: "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/9c25dd86-e2f9-4933-be6f-dc816e4d2343.pdf",
+      // credential: "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/9c25dd86-e2f9-4933-be6f-dc816e4d2343.pdf",
       
       badge: { fr: "Certification", en: "Certification" }
     },
